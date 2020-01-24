@@ -32,11 +32,12 @@ class App extends Component {
 			<>
 				<nav>
 					<h2>peer insight</h2>
+					<h3>Project Timeline</h3>
+					<div className='space'></div>
 				</nav>
 				<div className='top'></div>
 				<div className='App'>
-					{/* Bounding box for the Timeline */}
-					<div style={{ width: '60%', height: '100px', margin: '0 auto' }}>
+					<div style={{ width: '80%', height: '100px', margin: '0 auto' }}>
 						<HorizontalTimeline
 							index={this.state.value}
 							indexClick={index => {
