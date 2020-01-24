@@ -29,6 +29,14 @@ p {
 	line-height: 1.4;
 	font-family: 'Poppins';
 	margin-bottom: 20px;
+
+	span {
+		font-size: 35px;
+		font-weight: bold;
+		position: relative;
+		top: 0px;
+		padding-right: 3px;
+	}
 }
 
 h1 {
