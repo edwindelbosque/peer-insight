@@ -1,0 +1,43 @@
+article {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding-bottom: 100px;
+}
+
+img {
+	width: 60%;
+	border-radius: 3px;
+	margin: 40px 0;
+	box-shadow: 0 2px 5px rgb(173, 173, 173);
+}
+
+p,
+h1,
+h6 {
+	font-family: 'Proxima Nova Alt';
+	width: 100%;
+}
+
+p {
+	font-size: 18px;
+	color: black;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+h6 {
+	font-size: 16px;
+	margin-top: 50px;
+	color: rgb(92, 92, 92);
+}
