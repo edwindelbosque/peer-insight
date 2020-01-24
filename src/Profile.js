@@ -1,18 +1,18 @@
 import React from 'react';
 import './Profile.scss';
-import FadeIn from 'react-fade-in';
+import Fade from 'react-reveal/Fade';
 
 const Profile = ({ title, body, image, date }) => {
 	return (
 		<article>
-			<FadeIn>
+			<Fade bottom spy={title} appear={true} distance='50px'>
 				<h6>{date}</h6>
 				<h1>{title.toUpperCase()}</h1>
 				<img src={image} alt={title} />
 				<p>{body}</p>
 				<p>{body}</p>
 				<p>{body}</p>
-			</FadeIn>
+			</Fade>
 		</article>
 	);
 };
